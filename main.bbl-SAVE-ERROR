@@ -1,0 +1,1180 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{bc1}{article}{}
+      \name{author}{9}{}{%
+        {{hash=4f95403f0cc1f40a5310e8e6eb9abd29}{%
+           family={Lees},
+           familyi={L\bibinitperiod},
+           given={Alexander\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=23ccb5c54f5ee29ddda8d46efc6db39f}{%
+           family={Haskell},
+           familyi={H\bibinitperiod},
+           given={Lucy},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9a2a6cc0708f9009a69f6797c1de5bfb}{%
+           family={Allinson},
+           familyi={A\bibinitperiod},
+           given={Tris},
+           giveni={T\bibinitperiod}}}%
+        {{hash=97a250b1313d73f8abe69a8d7679bfe6}{%
+           family={Bezeng},
+           familyi={B\bibinitperiod},
+           given={Simeon\bibnamedelima B.},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=b579cae5b095cd7949d31d5beecf79c7}{%
+           family={Burfield},
+           familyi={B\bibinitperiod},
+           given={Ian\bibnamedelima J.},
+           giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a0d10ce4555dca008a8494d9d0638273}{%
+           family={Renjifo},
+           familyi={R\bibinitperiod},
+           given={Luis\bibnamedelima Miguel},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f7c38c2790c0170f681b08c73100923e}{%
+           family={Rosenberg},
+           familyi={R\bibinitperiod},
+           given={Kenneth\bibnamedelima V.},
+           giveni={K\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=1737d5e9793f420ccb47fd393f7c1582}{%
+           family={Viswanathan},
+           familyi={V\bibinitperiod},
+           given={Ashwin},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a963662da3b3f609c3f42007620399ed}{%
+           family={Butchart},
+           familyi={B\bibinitperiod},
+           given={Stuart\bibnamedelima H.M.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Annual Reviews}%
+      }
+      \strng{namehash}{4971beab185ede5d550789bf307afe27}
+      \strng{fullhash}{7f22bbf58850279bfae7e8da822dae97}
+      \strng{bibnamehash}{4971beab185ede5d550789bf307afe27}
+      \strng{authorbibnamehash}{4971beab185ede5d550789bf307afe27}
+      \strng{authornamehash}{4971beab185ede5d550789bf307afe27}
+      \strng{authorfullhash}{7f22bbf58850279bfae7e8da822dae97}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1545-2050}
+      \field{journaltitle}{Annual Review of Environment and Resources}
+      \field{number}{Volume 47, 2022}
+      \field{title}{State of the World \& apos;s Birds}
+      \field{type}{Journal Article}
+      \field{volume}{47}
+      \field{year}{2022}
+      \field{pages}{231\bibrangedash 260}
+      \range{pages}{30}
+      \verb{doi}
+      \verb https://doi.org/10.1146/annurev-environ-112420-014642
+      \endverb
+      \verb{urlraw}
+      \verb https://www.annualreviews.org/content/journals/10.1146/annurev-environ-112420-014642
+      \endverb
+      \verb{url}
+      \verb https://www.annualreviews.org/content/journals/10.1146/annurev-environ-112420-014642
+      \endverb
+    \endentry
+    \entry{bc2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1db9751b236ddf01ba37ca012a944327}{%
+           family={2024},
+           familyi={2\bibinitperiod},
+           given={IUCN},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{1db9751b236ddf01ba37ca012a944327}
+      \strng{fullhash}{1db9751b236ddf01ba37ca012a944327}
+      \strng{bibnamehash}{1db9751b236ddf01ba37ca012a944327}
+      \strng{authorbibnamehash}{1db9751b236ddf01ba37ca012a944327}
+      \strng{authornamehash}{1db9751b236ddf01ba37ca012a944327}
+      \strng{authorfullhash}{1db9751b236ddf01ba37ca012a944327}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The IUCN Red List of Threatened Species}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.iucnredlist.org/
+      \endverb
+      \verb{url}
+      \verb https://www.iucnredlist.org/
+      \endverb
+      \warn{\item online entry 'bc2' (ref.bib): Invalid format '9 5, 2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{bc3}{article}{}
+      \name{author}{5}{}{%
+        {{hash=cb40708914697ee047c3a5ff66fc005b}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Xu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=cf04e08983a47de7168f859ce983fb30}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiaoping},
+           giveni={X\bibinitperiod}}}%
+        {{hash=28f04c6a1b31952956071122e635af36}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Qian},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=b7a18644adcaaf7558b45983714a30ed}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Qiwei},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=2575ab10863fd0da6380e95fe7313bb2}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{bea3e41adc5f92000c8d6b1cd87fd866}
+      \strng{fullhash}{b0aaa14526cea510def1924eac9eb01c}
+      \strng{bibnamehash}{b0aaa14526cea510def1924eac9eb01c}
+      \strng{authorbibnamehash}{b0aaa14526cea510def1924eac9eb01c}
+      \strng{authornamehash}{bea3e41adc5f92000c8d6b1cd87fd866}
+      \strng{authorfullhash}{b0aaa14526cea510def1924eac9eb01c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2053-7166}
+      \field{journaltitle}{Avian Research}
+      \field{title}{Detour for the inexperienced? Migration count data suggest mostly juvenile Greater Spotted Eagles appear in coastal peninsulas in China}
+      \field{volume}{15}
+      \field{year}{2024}
+      \field{pages}{100183}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.avrs.2024.100183
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2053716624000264
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2053716624000264
+      \endverb
+    \endentry
+    \entry{bc4}{article}{}
+      \name{author}{9}{}{%
+        {{hash=1dd63432d0d375e217809b3ff5c4ea44}{%
+           family={Gulson-Castillo},
+           familyi={G\bibinithyphendelim C\bibinitperiod},
+           given={Eric\bibnamedelima R.},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=0614be01f9a03dd4b4f84dd90dbdd80e}{%
+           family={Doren},
+           familyi={D\bibinitperiod},
+           given={Benjamin\bibnamedelimb M.\bibnamedelimi Van},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=c00186fecf921508b19c4179c2879229}{%
+           family={Bui},
+           familyi={B\bibinitperiod},
+           given={Michelle\bibnamedelima X.},
+           giveni={M\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+        {{hash=0fac402a3441a06292afea463be9f697}{%
+           family={Horton},
+           familyi={H\bibinitperiod},
+           given={Kyle\bibnamedelima G.},
+           giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=bcdd73174e26b44169c10e9083e72469}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bc95767e287aff743ce3d53f8d7d2d6d}{%
+           family={Moldwin},
+           familyi={M\bibinitperiod},
+           given={Mark\bibnamedelima B.},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=3b43da676dd9091c5c953cbf58e8c40f}{%
+           family={Shedden},
+           familyi={S\bibinitperiod},
+           given={Kerby},
+           giveni={K\bibinitperiod}}}%
+        {{hash=61a91b40e4cd04d109649f166ac8fb50}{%
+           family={Welling},
+           familyi={W\bibinitperiod},
+           given={Daniel\bibnamedelima T.},
+           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=682c27a5420d7680f72a39d705ee149e}{%
+           family={Winger},
+           familyi={W\bibinitperiod},
+           given={Benjamin\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{def4643450460ccaac5bf62c64cc4f0c}
+      \strng{fullhash}{a92f9b88b340caa7b751c43a14a2fe27}
+      \strng{bibnamehash}{def4643450460ccaac5bf62c64cc4f0c}
+      \strng{authorbibnamehash}{def4643450460ccaac5bf62c64cc4f0c}
+      \strng{authornamehash}{def4643450460ccaac5bf62c64cc4f0c}
+      \strng{authorfullhash}{a92f9b88b340caa7b751c43a14a2fe27}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{42}
+      \field{title}{Space weather disrupts nocturnal bird migration}
+      \field{volume}{120}
+      \field{year}{2023}
+      \field{pages}{e2306317120}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1073/pnas.2306317120
+      \endverb
+      \verb{eprint}
+      \verb https://www.pnas.org/doi/pdf/10.1073/pnas.2306317120
+      \endverb
+      \verb{urlraw}
+      \verb https://www.pnas.org/doi/abs/10.1073/pnas.2306317120
+      \endverb
+      \verb{url}
+      \verb https://www.pnas.org/doi/abs/10.1073/pnas.2306317120
+      \endverb
+    \endentry
+    \entry{sa1}{article}{}
+      \name{author}{4}{}{%
+        {{hash=3e1280c8c03b0554b20f2d5d21493ed2}{%
+           family={Kahl},
+           familyi={K\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5da1ef5f579812bc3a1aa72438734426}{%
+           family={Wood},
+           familyi={W\bibinitperiod},
+           given={Connor\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=fcfa5e0d3766fc5cd25cedc7eaeaa992}{%
+           family={Eibl},
+           familyi={E\bibinitperiod},
+           given={Maximilian},
+           giveni={M\bibinitperiod}}}%
+        {{hash=78a9da9ec4a63a0a3d3757ec75e31507}{%
+           family={Klinck},
+           familyi={K\bibinitperiod},
+           given={Holger},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{4de855767328806d38b1a2fd73125a70}
+      \strng{fullhash}{565209f57daef1e7f8e65ea2a601a018}
+      \strng{bibnamehash}{565209f57daef1e7f8e65ea2a601a018}
+      \strng{authorbibnamehash}{565209f57daef1e7f8e65ea2a601a018}
+      \strng{authornamehash}{4de855767328806d38b1a2fd73125a70}
+      \strng{authorfullhash}{565209f57daef1e7f8e65ea2a601a018}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1574-9541}
+      \field{journaltitle}{Ecological Informatics}
+      \field{title}{BirdNET: A deep learning solution for avian diversity monitoring}
+      \field{volume}{61}
+      \field{year}{2021}
+      \field{pages}{101236}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.ecoinf.2021.101236
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1574954121000273
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1574954121000273
+      \endverb
+    \endentry
+    \entry{sa2}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=af68f804980ef404731701d70af0a6d3}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Sai-hua},
+           giveni={S\bibinithyphendelim h\bibinitperiod}}}%
+        {{hash=a4dbea6ae11bc4785b1656b87fcb8576}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Zhao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=d0d5bc40711580d206920b0e00b27c0a}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Zhi-yong},
+           giveni={Z\bibinithyphendelim y\bibinitperiod}}}%
+        {{hash=13f80a34b9c1b65817c5d164a4f12aaf}{%
+           family={Bellisario},
+           familyi={B\bibinitperiod},
+           given={Kristen},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4e2edf067cc016e70d3a1ec77713010a}{%
+           family={Pijanowski},
+           familyi={P\bibinitperiod},
+           given={Bryan\bibnamedelima C.},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{876a013270345706638a015623e02ffa}
+      \strng{fullhash}{000e4888231a289bfc9143807f1f42d3}
+      \strng{bibnamehash}{000e4888231a289bfc9143807f1f42d3}
+      \strng{authorbibnamehash}{000e4888231a289bfc9143807f1f42d3}
+      \strng{authornamehash}{876a013270345706638a015623e02ffa}
+      \strng{authorfullhash}{000e4888231a289bfc9143807f1f42d3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}
+      \field{title}{Automatic Bird Vocalization Identification Based on Fusion of Spectral Pattern and Texture Features}
+      \field{year}{2018}
+      \field{pages}{271\bibrangedash 275}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICASSP.2018.8462156
+      \endverb
+    \endentry
+    \entry{sa3}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6343dee5872550b9990a9366a42b1b06}{%
+           family={Tuncer},
+           familyi={T\bibinitperiod},
+           given={Turker},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0d7db2400a89bb2e69dbaa5be35cfcfa}{%
+           family={Akbal},
+           familyi={A\bibinitperiod},
+           given={Erhan},
+           giveni={E\bibinitperiod}}}%
+        {{hash=8ba96341fc7b0231b4fbdb814d6f2413}{%
+           family={Dogan},
+           familyi={D\bibinitperiod},
+           given={Sengul},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{42fd8b53724831e6b87e92beb68ef9f4}
+      \strng{fullhash}{e012d17ce2ec7f91b0f0f8302d3f3473}
+      \strng{bibnamehash}{e012d17ce2ec7f91b0f0f8302d3f3473}
+      \strng{authorbibnamehash}{e012d17ce2ec7f91b0f0f8302d3f3473}
+      \strng{authornamehash}{42fd8b53724831e6b87e92beb68ef9f4}
+      \strng{authorfullhash}{e012d17ce2ec7f91b0f0f8302d3f3473}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0003-682X}
+      \field{journaltitle}{Applied Acoustics}
+      \field{title}{Multileveled ternary pattern and iterative ReliefF based bird sound classification}
+      \field{volume}{176}
+      \field{year}{2021}
+      \field{pages}{107866}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.apacoust.2020.107866
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0003682X20309713
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0003682X20309713
+      \endverb
+    \endentry
+    \entry{resnet}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=6b4b60e909e78633945f3f9c9dc83e01}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Kaiming},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5e72bc22dbcf0984c6d113d280e36990}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xiangyu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=bb295293acacd54387339079ebbe4ead}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Shaoqing},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f85751488058842b5777c7b4074077b5}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{6edb98fe38401d2fe4a026f5ce6e8451}
+      \strng{fullhash}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \strng{bibnamehash}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \strng{authorbibnamehash}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \strng{authornamehash}{6edb98fe38401d2fe4a026f5ce6e8451}
+      \strng{authorfullhash}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{Deep Residual Learning for Image Recognition}
+      \field{year}{2015}
+      \verb{eprint}
+      \verb 1512.03385
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1512.03385
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1512.03385
+      \endverb
+    \endentry
+    \entry{dataset1}{article}{}
+      \name{author}{2}{}{%
+        {{hash=338dd7676726e103314ac751d89416f1}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Xiangteng},
+           giveni={X\bibinitperiod}}}%
+        {{hash=08eb1675afc04e72127d587ab05e8d4c}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Yuxin},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Institute of Electrical}%
+        {Electronics Engineers (IEEE)}%
+      }
+      \strng{namehash}{48aacaccced73a4f38a34acfe1934963}
+      \strng{fullhash}{48aacaccced73a4f38a34acfe1934963}
+      \strng{bibnamehash}{48aacaccced73a4f38a34acfe1934963}
+      \strng{authorbibnamehash}{48aacaccced73a4f38a34acfe1934963}
+      \strng{authornamehash}{48aacaccced73a4f38a34acfe1934963}
+      \strng{authorfullhash}{48aacaccced73a4f38a34acfe1934963}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1558-2205}
+      \field{journaltitle}{IEEE Transactions on Circuits and Systems for Video Technology}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Fine-Grained Visual-Textual Representation Learning}
+      \field{volume}{30}
+      \field{year}{2020}
+      \field{pages}{520\bibrangedash 531}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/tcsvt.2019.2892802
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1109/TCSVT.2019.2892802
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1109/TCSVT.2019.2892802
+      \endverb
+    \endentry
+    \entry{sa4}{incollection}{}
+      \name{author}{4}{}{%
+        {{hash=9405b94ca758ce7c779dd7522d35dd7c}{%
+           family={Potluri},
+           familyi={P\bibinitperiod},
+           given={Haritha},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8f0c76d446c0188c917c0749e6357343}{%
+           family={Vinnakota},
+           familyi={V\bibinitperiod},
+           given={Amuktha},
+           giveni={A\bibinitperiod}}}%
+        {{hash=325ba3118b801c04d12a4efe818ea24d}{%
+           family={Prativada},
+           familyi={P\bibinitperiod},
+           given={Naga\bibnamedelima Pavan},
+           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=69adc6dd45ec5f134f9599d5ff13a843}{%
+           family={Yelavarti},
+           familyi={Y\bibinitperiod},
+           given={Kalyan\bibnamedelima Chakravarti},
+           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{e83a42bcd24c3a68d536d4a3c7305d81}
+      \strng{fullhash}{0fb4c31f02e639f95008be57c3299597}
+      \strng{bibnamehash}{0fb4c31f02e639f95008be57c3299597}
+      \strng{authorbibnamehash}{0fb4c31f02e639f95008be57c3299597}
+      \strng{authornamehash}{e83a42bcd24c3a68d536d4a3c7305d81}
+      \strng{authorfullhash}{0fb4c31f02e639f95008be57c3299597}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Information Communication Technology and Computing: Proceedings of AICTC 2022}
+      \field{title}{Bird Species Identification Based on Images Using Residual Network}
+      \field{year}{2023}
+      \field{pages}{559\bibrangedash 567}
+      \range{pages}{9}
+    \endentry
+    \entry{sa5}{article}{}
+      \name{author}{6}{}{%
+        {{hash=5370ae3f90eadd2ee26d37485de4bddd}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Hai},
+           giveni={H\bibinitperiod}}}%
+        {{hash=57f7f0240f141850db99567185d1a24c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Cheng},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8bbf55298ec8c73ea1e40d96bc5dde95}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Yongjian},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=16ae3b437db82f8d681c503d774082c5}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Bochen},
+           giveni={B\bibinitperiod}}}%
+        {{hash=77ca3f48de838e8d1ed2b4d311f9457e}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Tingting},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d0d126aa0b531d1bf0064bd1631f0851}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={You-Fu},
+           giveni={Y\bibinithyphendelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{db7eca5b3f50c21cd91b7f9409296f6f}
+      \strng{fullhash}{9487631733409ad1103e3135ff2d00ec}
+      \strng{bibnamehash}{9487631733409ad1103e3135ff2d00ec}
+      \strng{authorbibnamehash}{9487631733409ad1103e3135ff2d00ec}
+      \strng{authornamehash}{db7eca5b3f50c21cd91b7f9409296f6f}
+      \strng{authorfullhash}{9487631733409ad1103e3135ff2d00ec}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Multimedia}
+      \field{title}{TransIFC: Invariant Cues-aware Feature Concentration Learning for Efficient Fine-grained Bird Image Classification}
+      \field{year}{2023}
+      \field{pages}{1\bibrangedash 14}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/TMM.2023.3238548
+      \endverb
+      \keyw{Birds;Feature extraction;Transformers;Image classification;Semantics;Image recognition;Task analysis;Feature extraction;Image classification;Invariant cues;Transformer;Deep learning}
+    \endentry
+    \entry{dataset2}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=421cfc141202a500839444357c47b2c0}{%
+           family={Van\bibnamedelima Horn},
+           familyi={V\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Grant},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7b0c6ffa378b0f94568e016f37a93cde}{%
+           family={Branson},
+           familyi={B\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0d571bfb60f337ec43444bbd7a853bda}{%
+           family={Farrell},
+           familyi={F\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=24a887cc2d33e13d8e063d5faa2b7fd9}{%
+           family={Haber},
+           familyi={H\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1766e0b3fcb385f95e22e65a83c496b2}{%
+           family={Barry},
+           familyi={B\bibinitperiod},
+           given={Jessie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f8918936d23654c8b3cc2f5f2b54d303}{%
+           family={Ipeirotis},
+           familyi={I\bibinitperiod},
+           given={Panos},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e52876f830a8a20786ff3e4d7dd6f083}{%
+           family={Perona},
+           familyi={P\bibinitperiod},
+           given={Pietro},
+           giveni={P\bibinitperiod}}}%
+        {{hash=044d1db5259b74e4975282f599d8e767}{%
+           family={Belongie},
+           familyi={B\bibinitperiod},
+           given={Serge},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{67bc7865b3d0dbe247f47ded0887dacc}
+      \strng{fullhash}{2d09f1070eb409e432d08557da2e5bb4}
+      \strng{bibnamehash}{67bc7865b3d0dbe247f47ded0887dacc}
+      \strng{authorbibnamehash}{67bc7865b3d0dbe247f47ded0887dacc}
+      \strng{authornamehash}{67bc7865b3d0dbe247f47ded0887dacc}
+      \strng{authorfullhash}{2d09f1070eb409e432d08557da2e5bb4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}
+      \field{month}{6}
+      \field{title}{Building a Bird Recognition App and Large Scale Dataset With Citizen Scientists: The Fine Print in Fine-Grained Dataset Collection}
+      \field{year}{2015}
+    \endentry
+    \entry{dataset3}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=7984fa1cd085030bbf8bdfe4b12eae2a}{%
+           family={Mei},
+           familyi={M\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e16b03661fdfbcf39546885a68509604}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{293e7e8b534a053a466c665301b40570}
+      \strng{fullhash}{293e7e8b534a053a466c665301b40570}
+      \strng{bibnamehash}{293e7e8b534a053a466c665301b40570}
+      \strng{authorbibnamehash}{293e7e8b534a053a466c665301b40570}
+      \strng{authornamehash}{293e7e8b534a053a466c665301b40570}
+      \strng{authorfullhash}{293e7e8b534a053a466c665301b40570}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{The DongNiao International Birds 10000 Dataset}
+      \field{year}{2020}
+      \verb{eprint}
+      \verb 2010.06454
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2010.06454
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2010.06454
+      \endverb
+    \endentry
+    \entry{datasetcoco}{misc}{}
+      \name{author}{10}{}{%
+        {{hash=08f925fe4692d130a1d7cb7d94483351}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Tsung-Yi},
+           giveni={T\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=d980bc6930f008a0fb5fa667785f2309}{%
+           family={Maire},
+           familyi={M\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=044d1db5259b74e4975282f599d8e767}{%
+           family={Belongie},
+           familyi={B\bibinitperiod},
+           given={Serge},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a5d50cf5c085cd3a323d68588dcb89c8}{%
+           family={Bourdev},
+           familyi={B\bibinitperiod},
+           given={Lubomir},
+           giveni={L\bibinitperiod}}}%
+        {{hash=bd5dadbe57bedc5957c19a3154c4d424}{%
+           family={Girshick},
+           familyi={G\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=797fc3624ba315db58eef7279ace5bf3}{%
+           family={Hays},
+           familyi={H\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e52876f830a8a20786ff3e4d7dd6f083}{%
+           family={Perona},
+           familyi={P\bibinitperiod},
+           given={Pietro},
+           giveni={P\bibinitperiod}}}%
+        {{hash=aedcd3831845183e070aef16857d83ea}{%
+           family={Ramanan},
+           familyi={R\bibinitperiod},
+           given={Deva},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0eae2d56a9cbb037c64028d6573877a7}{%
+           family={Zitnick},
+           familyi={Z\bibinitperiod},
+           given={C.\bibnamedelimi Lawrence},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=ecd149fdcb3e0503881d49e545744c3d}{%
+           family={Dollár},
+           familyi={D\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b7e00bc88d7aca4d4d5ddb8c252e36c}
+      \strng{fullhash}{63d989c97b4964e8cb9e77f1dea6cd25}
+      \strng{bibnamehash}{3b7e00bc88d7aca4d4d5ddb8c252e36c}
+      \strng{authorbibnamehash}{3b7e00bc88d7aca4d4d5ddb8c252e36c}
+      \strng{authornamehash}{3b7e00bc88d7aca4d4d5ddb8c252e36c}
+      \strng{authorfullhash}{63d989c97b4964e8cb9e77f1dea6cd25}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{Microsoft COCO: Common Objects in Context}
+      \field{year}{2015}
+      \verb{eprint}
+      \verb 1405.0312
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1405.0312
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1405.0312
+      \endverb
+    \endentry
+    \entry{datasetvoc}{article}{}
+      \name{author}{6}{}{%
+        {{hash=b238e543a5f5967004bd87fe51af1b53}{%
+           family={Everingham},
+           familyi={E\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0f813439356a1b8cf54b47b9ea709009}{%
+           family={Eslami},
+           familyi={E\bibinitperiod},
+           given={S.\bibnamedelimi M.\bibnamedelimi A.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=991d15a9ac8c45292e2aa7bfc8c28007}{%
+           family={Van\bibnamedelima Gool},
+           familyi={V\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=03fe732f745576c10e0c06a73741997b}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={C.\bibnamedelimi K.\bibnamedelimi I.},
+           giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=18b28a498fc18943accd93ed7d96eda9}{%
+           family={Winn},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e77fd9dd5d9af3c798867760f8828744}{%
+           family={Zisserman},
+           familyi={Z\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b7d68679e69a4f3570011ffbc81a36f9}
+      \strng{fullhash}{ca0a9c6c99b7f6c2f701f0d20591a884}
+      \strng{bibnamehash}{ca0a9c6c99b7f6c2f701f0d20591a884}
+      \strng{authorbibnamehash}{ca0a9c6c99b7f6c2f701f0d20591a884}
+      \strng{authornamehash}{b7d68679e69a4f3570011ffbc81a36f9}
+      \strng{authorfullhash}{ca0a9c6c99b7f6c2f701f0d20591a884}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Computer Vision}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{The Pascal Visual Object Classes Challenge: A Retrospective}
+      \field{volume}{111}
+      \field{year}{2015}
+      \field{pages}{98\bibrangedash 136}
+      \range{pages}{39}
+    \endentry
+    \entry{datasetmva}{inproceedings}{}
+      \name{author}{22}{}{%
+        {{hash=49108be4d1086717120000d7bf460f66}{%
+           family={Kondo},
+           familyi={K\bibinitperiod},
+           given={Yuki},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=25e6e3aa2aa893abf8adae4f601b9c61}{%
+           family={Ukita},
+           familyi={U\bibinitperiod},
+           given={Norimichi},
+           giveni={N\bibinitperiod}}}%
+        {{hash=f8e2334abcc517e8a22b46959b2e91da}{%
+           family={Yamaguchi},
+           familyi={Y\bibinitperiod},
+           given={Takayuki},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c8653615de8fc386e928c167cc4b224f}{%
+           family={Hou},
+           familyi={H\bibinitperiod},
+           given={Hao-Yu},
+           giveni={H\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=ad07a3db0bc8168ceff9236cd9b647db}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Mu-Yi},
+           giveni={M\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=fa11312204ad60b4db93834cf0617e90}{%
+           family={Hsu},
+           familyi={H\bibinitperiod},
+           given={Chia-Chi},
+           giveni={C\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=3774aa6d6da19fbc957e23351df5b7a8}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={En-Ming},
+           giveni={E\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=378cfbc4ea920a6e897629f1814df626}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yu-Chen},
+           giveni={Y\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=a53af3691ae0a804ccb316c1130e8140}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Yu-Cheng},
+           giveni={Y\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=053d491932411950eccf2bb9a1025d11}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Chien-Yao},
+           giveni={C\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=3ba6689a5c015273f3a83f4fcf384bff}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Chun-Yi},
+           giveni={C\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=d40bd0da9f98e5ec15da08199baa095e}{%
+           family={Huo},
+           familyi={H\bibinitperiod},
+           given={Da},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a38f93572cc6a7e066dcffc7bf9f5d0a}{%
+           family={Kastner},
+           familyi={K\bibinitperiod},
+           given={Marc\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=21f14d68ab14298400d7cc84a3a64bd9}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Tingwei},
+           giveni={T\bibinitperiod}}}%
+        {{hash=392c4c547f2674d46e2730ed8adde67b}{%
+           family={Kawanishi},
+           familyi={K\bibinitperiod},
+           given={Yasutomo},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e653c885367765972ddaf9dc92f212ef}{%
+           family={Hirayama},
+           familyi={H\bibinitperiod},
+           given={Takatsugu},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9c88d318e35dfdad1d35b010b7d7ec3b}{%
+           family={Komamizu},
+           familyi={K\bibinitperiod},
+           given={Takahiro},
+           giveni={T\bibinitperiod}}}%
+        {{hash=afdbf4372f4fd443c01cbe86ec2a05b0}{%
+           family={Ide},
+           familyi={I\bibinitperiod},
+           given={Ichiro},
+           giveni={I\bibinitperiod}}}%
+        {{hash=84b08e12c7f66950b0d9444224d0be17}{%
+           family={Shinya},
+           familyi={S\bibinitperiod},
+           given={Yosuke},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=97de7723860f6c3670dbd06ed3edce0d}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xinyao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=3c707100ba959f591f5866b8199cfce7}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Guang},
+           giveni={G\bibinitperiod}}}%
+        {{hash=44a22967fc5c29783dc525d5ef3676d3}{%
+           family={Yasui},
+           familyi={Y\bibinitperiod},
+           given={Syusuke},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{90af270cafd4a494d58457bd919bb844}
+      \strng{fullhash}{51d6d358353a668a3a2c57e8de015192}
+      \strng{bibnamehash}{90af270cafd4a494d58457bd919bb844}
+      \strng{authorbibnamehash}{90af270cafd4a494d58457bd919bb844}
+      \strng{authornamehash}{90af270cafd4a494d58457bd919bb844}
+      \strng{authorfullhash}{51d6d358353a668a3a2c57e8de015192}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2023 18th International Conference on Machine Vision and Applications (MVA)}
+      \field{note}{\url{https://www.mva-org.jp/mva2023/challenge}}
+      \field{title}{{MVA2023 Small Object Detection Challenge for Spotting Birds: Dataset, Methods, and Results}}
+      \field{year}{2023}
+    \endentry
+    \entry{Swint}{misc}{}
+      \name{author}{8}{}{%
+        {{hash=19aabf2deb737584450693431af51cc3}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Ze},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=3c6a54dc09fe06657a89a749043b2133}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Yutong},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=5fde2ec473a5900f24f02ea9a11359ed}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Yue},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f19295c2c8bee05248e05cdbfd48b247}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Han},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1d41b11667193fc2d6d720337c963955}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Yixuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=fcdb4c7704baa79893b29d652aecc77f}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=eb40fa909f02eebf8c76aedeab111038}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5635e5718e86c9052afcaa71d2097959}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Baining},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{009ce81df9957b336af5b72e75724e0c}
+      \strng{fullhash}{4573863b62d52acb9c29e180e6f47f26}
+      \strng{bibnamehash}{009ce81df9957b336af5b72e75724e0c}
+      \strng{authorbibnamehash}{009ce81df9957b336af5b72e75724e0c}
+      \strng{authornamehash}{009ce81df9957b336af5b72e75724e0c}
+      \strng{authorfullhash}{4573863b62d52acb9c29e180e6f47f26}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{Swin Transformer: Hierarchical Vision Transformer using Shifted Windows}
+      \field{year}{2021}
+      \verb{eprint}
+      \verb 2103.14030
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2103.14030
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2103.14030
+      \endverb
+    \endentry
+    \entry{centernet}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=24e39514a947d107ce59334310fc58bb}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xingyi},
+           giveni={X\bibinitperiod}}}%
+        {{hash=e7cf4cb73884dff2f3b4dcbb22c0e27d}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Dequan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f7c378608b911bbcd2f03a441af99088}{%
+           family={Krähenbühl},
+           familyi={K\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{93c47eed08c95c779293180e6cf38953}
+      \strng{fullhash}{ae7f4ac5edcdeb6c83638e8f08c97862}
+      \strng{bibnamehash}{ae7f4ac5edcdeb6c83638e8f08c97862}
+      \strng{authorbibnamehash}{ae7f4ac5edcdeb6c83638e8f08c97862}
+      \strng{authornamehash}{93c47eed08c95c779293180e6cf38953}
+      \strng{authorfullhash}{ae7f4ac5edcdeb6c83638e8f08c97862}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{Objects as Points}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1904.07850
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1904.07850
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1904.07850
+      \endverb
+    \endentry
+    \entry{mva1}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=d40bd0da9f98e5ec15da08199baa095e}{%
+           family={Huo},
+           familyi={H\bibinitperiod},
+           given={Da},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a38f93572cc6a7e066dcffc7bf9f5d0a}{%
+           family={Kastner},
+           familyi={K\bibinitperiod},
+           given={Marc\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=21f14d68ab14298400d7cc84a3a64bd9}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Tingwei},
+           giveni={T\bibinitperiod}}}%
+        {{hash=392c4c547f2674d46e2730ed8adde67b}{%
+           family={Kawanishi},
+           familyi={K\bibinitperiod},
+           given={Yasutomo},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e653c885367765972ddaf9dc92f212ef}{%
+           family={Hirayama},
+           familyi={H\bibinitperiod},
+           given={Takatsugu},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9c88d318e35dfdad1d35b010b7d7ec3b}{%
+           family={Komamizu},
+           familyi={K\bibinitperiod},
+           given={Takahiro},
+           giveni={T\bibinitperiod}}}%
+        {{hash=afdbf4372f4fd443c01cbe86ec2a05b0}{%
+           family={Ide},
+           familyi={I\bibinitperiod},
+           given={Ichiro},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{4dc9b3cbac1e6bf11e0a4f4e73db3a7b}
+      \strng{fullhash}{3530439d01d8d7d90e37bc31acc1dd47}
+      \strng{bibnamehash}{4dc9b3cbac1e6bf11e0a4f4e73db3a7b}
+      \strng{authorbibnamehash}{4dc9b3cbac1e6bf11e0a4f4e73db3a7b}
+      \strng{authornamehash}{4dc9b3cbac1e6bf11e0a4f4e73db3a7b}
+      \strng{authorfullhash}{3530439d01d8d7d90e37bc31acc1dd47}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2023 18th International Conference on Machine Vision and Applications (MVA)}
+      \field{title}{Small Object Detection for Birds with Swin Transformer}
+      \field{year}{2023}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.23919/MVA57639.2023.10216093
+      \endverb
+      \keyw{Training;Pedestrians;Machine vision;Object detection;Transformers;Birds;Magnetic heads}
+    \endentry
+    \entry{mva2}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=c8653615de8fc386e928c167cc4b224f}{%
+           family={Hou},
+           familyi={H\bibinitperiod},
+           given={Hao-Yu},
+           giveni={H\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=ad07a3db0bc8168ceff9236cd9b647db}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Mu-Yi},
+           giveni={M\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=fa11312204ad60b4db93834cf0617e90}{%
+           family={Hsu},
+           familyi={H\bibinitperiod},
+           given={Chia-Chi},
+           giveni={C\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=3774aa6d6da19fbc957e23351df5b7a8}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={En-Ming},
+           giveni={E\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=378cfbc4ea920a6e897629f1814df626}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yu-Chen},
+           giveni={Y\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=a53af3691ae0a804ccb316c1130e8140}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Yu-Cheng},
+           giveni={Y\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=053d491932411950eccf2bb9a1025d11}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Chien-Yao},
+           giveni={C\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=3ba6689a5c015273f3a83f4fcf384bff}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Chun-Yi},
+           giveni={C\bibinithyphendelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{f9078b9785ddcc68c6acb8c2ded7125e}
+      \strng{fullhash}{8ce41c124ba3a2f8f17d6f6abcc5f2f5}
+      \strng{bibnamehash}{f9078b9785ddcc68c6acb8c2ded7125e}
+      \strng{authorbibnamehash}{f9078b9785ddcc68c6acb8c2ded7125e}
+      \strng{authornamehash}{f9078b9785ddcc68c6acb8c2ded7125e}
+      \strng{authorfullhash}{8ce41c124ba3a2f8f17d6f6abcc5f2f5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2023 18th International Conference on Machine Vision and Applications (MVA)}
+      \field{title}{Ensemble Fusion for Small Object Detection}
+      \field{year}{2023}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.23919/MVA57639.2023.10215748
+      \endverb
+      \keyw{Machine vision;Object detection;Predictive models;Feature extraction;Birds;Robustness;Faces}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
