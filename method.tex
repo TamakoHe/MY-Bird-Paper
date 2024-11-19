@@ -1,0 +1,90 @@
+\section{Method}
+\subsection{Dataset}
+We used both public dataset and customized dataset to train and evaluate our model.
+Firstly, the MS-COCO~\cite{datasetcoco} which contains 2.5 million annotated 
+instances in 328k images categorized as 91 types. As our aim is to train a model that 
+can not only locate birds in images but also avoid false detections that recognize 
+non-bird objects as birds. All 80 types of training subset is used. However, as 
+the MS-COCO dataset is lack of instances of birds that is difficult to be detected.
+We collected 708 birds image in field environment and manually labeled all these birds 
+instances with their bounding boxes and segments. Many of these instances is hard to be 
+detected because of factors such as occlusion. Besides, we also noted birds with the 
+following criterias.
+\begin{enumerate}
+    \item whether the instance is occluded.
+    \item whether the instance is not clear.
+    \item whether the instance is photographed in side direction.
+    \item whether the instance is photographed in backlighting condition.
+\end{enumerate}
+A tabel describing our dataset based on these four criterias is shown in~\ref{th-bird-table}.
+\begin{table}[H]
+    \centering  % 使表格居中
+    \captionsetup{justification=centering}  % 使标题居中
+    \begin{tabular}{|c|c|}
+    \hline
+                       & Instances amount \\ \hline
+    Occluded           & 262              \\ \hline
+    Not clear          & 400              \\ \hline
+    Not side direction & 136              \\ \hline
+    Backlighting       & 70               \\ \hline
+    Total              & 1142             \\ \hline
+    \end{tabular}
+    \caption{Summary of TH-Bird dataset}
+    \label{th-bird-table}
+\end{table}
+\subsection{Data augmentation}
+In order to simulate a shooting scene in the field, 
+we adapted and designed some data argument methods. 
+In the existing method, we apply the random disorder 
+in color zone, random horizontal flip, 
+random crop and random extend.
+
+In the field environment, birds may be occluded by 
+branches or be unclear on photos because of movement. 
+We designed the stochastic fuzzy algorithm and 
+random occlusion algorithm to simulate. 
+\subsubsection{Stochastic fuzzy algorithm}
+Firstly, extract the bounding boxes coordinates of 
+birds instances and determine the area to be blurred. 
+Then, apply a convolution kernel of a specific size. 
+All weights of this kernel is one. Therefore, the 
+convolution results can be derived as 
+\[
+I'(x, y) = \sum_{i=-k}^{k} \sum_{j=-k}^{k} K(i, j) \cdot I(x+i, y+j)
+\]
+\begin{itemize}
+    \item \( I(x, y) \): Original pixel value at \((x, y)\).
+    \item \( I'(x, y) \): Blurred pixel value at \((x, y)\).
+    \item \( K(i, j) \): Kernel value at \((i, j)\).
+    \item \( k \): Half the kernel size (e.g., for a 3x3 kernel, \( k=1 \)).
+\end{itemize}
+For example, to get average value from 3X3 regions.
+The weights are chosen as:
+\[
+K = \frac{1}{9}
+\begin{bmatrix}
+1 & 1 & 1 \\
+1 & 1 & 1 \\
+1 & 1 & 1
+\end{bmatrix}
+\]
+\subsubsection{Random occlusion algorithm}
+Being blocked by branches is a very common circumstances in 
+bird photography. We design an algorithm to generate 
+simulated branches from data augmentation. To obtain 
+the optimized color, the RGB color and standard deviation
+of each channel were counted in a branches dataset~\cite{datsetbr}.
+The statistic results are shown in~\ref{bra-table}
+\begin{table}[H]
+    \centering  % 使表格居中
+    \captionsetup{justification=centering}  % 使标题居
+    \begin{tabular}{|c|c|c|}
+    \hline
+    \backslashbox{Value}{Channels}  & Average value & Standard deviation \\ \hline
+    R & 87.35         & 2.487              \\ \hline
+    G & 89.24         & 2.497              \\ \hline
+    B & 82.97         & 2.435              \\ \hline
+    \end{tabular}
+    \caption{Average value and standard deviation from~\cite{datsetbr}}
+    \label{bra-table}
+\end{table}

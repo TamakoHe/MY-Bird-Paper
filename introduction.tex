@@ -1,0 +1,65 @@
+\section{Introduction}
+\newcommand{\textbi}[1]{\textit{\textbf{#1}}}
+Avian biodiversity is an important factor 
+in ecosystems and contributes to 
+economic and culture development~\cite{bc1}. 
+Currently, the rapid economic development leads to fragmentation and degradation of habitat and overhunting 
+which eventually cause many bird species becoming endangered~\cite{bc1,bc2}. 
+
+Monitoring birds is the basis of further protection.
+Many relative organizations have lunched campaigns 
+tracking quantities and behaviors. 
+Xu Shi et al., investigated the migration of
+\textbi{Clanga clanga} and found the difference of 
+migration patterns between adult and juvenile specimens~\cite{bc3}.
+Eric R. Gulson-Castillo et al., discussed the impacts 
+of space weather on bird migration~\cite{bc4}.
+
+Manual monitoring is time-intensive and requires professional knowledge.
+Deep learning, however, can utilize computers' computing capability to learn the characteristics of birds, 
+reaching a high accuracy.
+In recent years, methods of birds monitoring and identification based on deep learning are 
+thriving. For example, Stefan Kahl and Stefan Kahl  
+proposed a deep neural network BirdNET which can 
+identify bird species by sound in an average precision of 
+0.791 for single-species recordings~\cite{sa1}.
+Within the domain of sound identification, methods
+such as Gaussian mixture model (GMM),  support vector machine (SVM)
+were adopted~\cite{sa2,sa3}. For birds images identification, many state-of-art deep learning designs
+were proposed. Potluri, H et al. applied ResNet (He et al., 2016)~\cite{resnet} on 
+CUB-200-2011 dataset~\cite{dataset1} and reached an accuracy of 96.5\%~\cite{sa4}.
+Liu et al. presented a novel feature concentration Transformer 
+(TransIFC) to extract the semantic information in birds images~\cite{sa5}. 
+This design was tested on NABirds dataset~\cite{dataset2} with an accuracy of 90.9\%.
+
+These researches focus on identification birds' species with 
+high-quality sounds or images. However, in real-time monitoring, 
+detection of locations of birds with complex backgrounds is the 
+fundamental task. Currently, most of birds images datasets 
+are designed for fine-grained classification such as CUB-200-2011~\cite{dataset1}, NABirds~\cite{dataset2} and DongNiao International Birds 10000~\cite{dataset3}
+rather than for object detection. Unfortunately, 
+popular general-purposed object detection datasets MS COCO~\cite{datasetcoco} and Pascal VOC~\cite{datasetvoc} 
+are lack of birds images photoed in field environment.
+Yuki Kondo et al. built a dataset of birds images for small object detection~\cite{datasetmva}.
+Using this dataset, Da Huo et al. developed a model 
+combined with Swin Transformer and CenterNet~;
+Hao-Yu Hou et al. introduced ensemble fusion techniques to reach 
+an average precision of 77.6\% at an IoU threshold of 0.5~\cite{Swint,centernet,mva1,mva2}.
+Although ~\cite{datasetmva} provides an alternative of MS COCO~\cite{datasetcoco} and Pascal VOC~\cite{datasetvoc},
+this dataset does not contain many occluded, crowded and backlighting 
+samples and its backgrounds are restricted to a few certain scenes.
+
+In light of these issues, we proposed a dataset 
+containing birds images in field environment TH-Birds. 
+The dataset is publicly available at \href{https://github.com/TamakoHe/TH-Birds}{https://github.com/TamakoHe/TH-Birds}. 
+Sample images in the proposed dataset were all collected from various field environment including river, lake and mountainous region. Every bird in these images is annotated with its bounding box, instance segment along with notes
+regarding the characteristics of every instances.  In addition, we proposed 
+a new method of data augmentation simulating the trees' braches' occlusion 
+and other complex scenarios. The FPN layer and the loss function of the 
+RT-DETR model were also redesigned for better performance in bird detection. 
+
+Experimental results demonstrated that this model increased the mAP by 
+1.3\% on the TH-bird and MS-COCO dataset. Performance on the occluded 
+and blurry images were also significantly increased. The results indicated 
+that the proposed dataset and model have the potential to provide a new spotlight
+of wide bird detection and recognization. 
