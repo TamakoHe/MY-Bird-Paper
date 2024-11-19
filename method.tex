@@ -88,4 +88,14 @@ The statistic results are shown in~\ref{bra-table}
     \caption{Average value and standard deviation from~\cite{datsetbr}}
     \label{bra-table}
 \end{table}
-GHO
+The for each sample image, the birds instances 
+are found and determine whether the bird's 
+width and height are greater 25 to enable branches 
+augmentation. To draw a occlusion line, its "center" point
+is randomly selected within the bounding box. After that, 
+the slope and x coordinates of the start and end points 
+are determined. The y coordinates is derived with x coordinates,
+slop and bonding box limit. The thinness varies along 
+the line with an average value determined by the size of the 
+bird and a fixed standard deviation. The flow graph and the pseudo 
+code are displayed in 
