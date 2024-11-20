@@ -58,7 +58,7 @@ I'(x, y) = \sum_{i=-k}^{k} \sum_{j=-k}^{k} K(i, j) \cdot I(x+i, y+j)
     \item \( K(i, j) \): Kernel value at \((i, j)\).
     \item \( k \): Half the kernel size (e.g., for a 3x3 kernel, \( k=1 \)).
 \end{itemize}
-For example, to get average value from 3X3 regions.
+For example, to get average value from $3\times 3$ regions to blur the instances.
 The weights are chosen as:
 \[
 K = \frac{1}{9}
@@ -68,6 +68,16 @@ K = \frac{1}{9}
 1 & 1 & 1
 \end{bmatrix}
 \]
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.20\textwidth}
+        \includegraphics[width=\linewidth]{fuzz_example.jpg}
+    \end{subfigure}
+    \begin{subfigure}{0.20\textwidth}
+        \includegraphics[width=\linewidth]{fuzz_exampleX.jpg}
+    \end{subfigure}
+    \caption{An exaple of stochastic fuzzy algorithm}
+\end{figure}
 \subsubsection{Random occlusion algorithm}
 Being blocked by branches is a very common circumstances in 
 bird photography. We design an algorithm to generate 
@@ -125,7 +135,6 @@ The statistic results are shown in~\ref{bra-table}
     \caption{Demonstrations of branches simulation algorithm}
     \label{aug-exp}
 \end{figure}
-
 The for each sample image, the birds instances 
 are found and determine whether the bird's 
 width and height are greater 25 to enable branches 
@@ -136,4 +145,9 @@ are determined. The y coordinates is derived with x coordinates,
 slop and bonding box limit. The thinness varies along 
 the line with an average value determined by the size of the 
 bird and a fixed standard deviation. The flow graph and the pseudo 
-code are displayed in 
+code are displayed in~\ref{png:random-branch}
+\begin{figure}[H]
+    \includegraphics[width=0.45\textwidth]{bracn_aug.png}
+    \caption{The flow graph of random branches augmentation}
+    \label{png:random-branch}
+\end{figure}
