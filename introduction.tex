@@ -49,6 +49,11 @@ Although ~\cite{datasetmva} provides an alternative of MS COCO~\cite{datasetcoco
 this dataset does not contain many occluded, crowded and backlighting 
 samples and its backgrounds are restricted to a few certain scenes.
 
+In most industrial cases, the object detection models are based on Convolution neural network or CNN which extracts 
+the images' features with a succession of convolution layers and generates proposals of instances with a detection head.
+Fast-RCNN~\cite{fastrcnn}, for example, can utilize convolution network such as ResNet~\cite{resnet} and RoI(region of interests)
+Pooling to extract features and detect objects in certain regions of images. 
+
 In light of these issues, we proposed a dataset 
 containing birds images in field environment TH-Birds. 
 The dataset is publicly available at \href{https://github.com/TamakoHe/TH-Birds}{https://github.com/TamakoHe/TH-Birds}. 
@@ -56,10 +61,12 @@ Sample images in the proposed dataset were all collected from various field envi
 regarding the characteristics of every instances.  In addition, we proposed 
 a new method of data augmentation simulating the trees' braches' occlusion 
 and other complex scenarios. The FPN layer and the loss function of the 
-RT-DETR model were also redesigned for better performance in bird detection. 
+RT-DETR~\cite{RTDETR} model were also redesigned for better performance in bird detection. 
 
 Experimental results demonstrated that this model increased the mAP by 
 1.3\% on the TH-bird and MS-COCO dataset. Performance on the occluded 
 and blurry images were also significantly increased. The results indicated 
 that the proposed dataset and model have the potential to provide a new spotlight
-of wide bird detection and recognization. 
+of wide bird detection and recognization. YOLOv2~\cite{yolov2} modified the detection head 
+to avoid flattening and fully-connected layers that weakened the spatial features in RoI.
+In 2017, I. Guyon et al, 
