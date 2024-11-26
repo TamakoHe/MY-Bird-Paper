@@ -52,7 +52,38 @@ samples and its backgrounds are restricted to a few certain scenes.
 In most industrial cases, the object detection models are based on Convolution neural network or CNN which extracts 
 the images' features with a succession of convolution layers and generates proposals of instances with a detection head.
 Fast-RCNN~\cite{fastrcnn}, for example, can utilize convolution network such as ResNet~\cite{resnet} and RoI(region of interests)
-Pooling to extract features and detect objects in certain regions of images. 
+Pooling to extract features and detect objects in certain regions of images. YOLOv2~\cite{yolov2} modified the detection head 
+to avoid flattening and fully-connected layers that weakened the spatial features in RoI.
+In 2017, I. Guyon et al~\cite{transformer}, design a model that apply multi self-attention layers and residual connection(transformer)
+which greatly improved feature extraction abilities for time-series data. It became the new benchmark for natural language processing
+and other deep learning application. In the field of computer vision, 
+transformer-based neural network models have increasingly challenged the dominance of convolutional neural networks (CNNs) 
+in the field of computer vision. Vision transformers(ViT)~\cite{vit} and other related architecture such as Swin transformers~\cite{Swint}
+can excel in tasks like image classification, object detection, and segmentation. In 2020, Carion et al~\cite{DETR} utilized 
+the powerful features extraction abilities of transformers architecture to build an end to end objects detection model.
+However, applying global awareness on each image led to slow convergence and long training time which hinder its use in time-sensitive object detection tasks.
+% 编译速度好慢，改几个字就要等好久，还是latexmk增量编译
+To ameliorate this issue, Detr with improved denoising anchor boxes for end-to-end object detection(DINO)~\cite{dino}.DINO leverages denoising training by injecting noisy samples into the object query inputs during training
+helping the model converge faster, making it more stable and robust under complex scenes.
+Yian Zhao et al., added a transformer-like multi-attention head on one of the output dimensions of ResNet~\cite{resnet} backbone,
+optimizing the CNN-based objects detection architecture and achieve a better performance on real-time detection(RE-DETR)~\cite{RTDETR}. Although 
+these designs improved the detection and segement of general categories objects, the accuracy of birds detection 
+is very concerning. By training the RE-DETR on MS-COCO dataset with 70 epoches, we found that the mAP of bird is only (TODO:filled the number)
+but the mAP of all categories is (TODO:filled the number). 
+% Intro的初稿总算完成了，好开心，method也快了
+% TODO:一些具体数字还要继续填入
+% 记得PULL!
+
+
+
+
+
+
+
+
+
+
+
 
 In light of these issues, we proposed a dataset 
 containing birds images in field environment TH-Birds. 
@@ -67,9 +98,4 @@ Experimental results demonstrated that this model increased the mAP by
 1.3\% on the TH-bird and MS-COCO dataset. Performance on the occluded 
 and blurry images were also significantly increased. The results indicated 
 that the proposed dataset and model have the potential to provide a new spotlight
-of wide bird detection and recognization. YOLOv2~\cite{yolov2} modified the detection head 
-to avoid flattening and fully-connected layers that weakened the spatial features in RoI.
-In 2017, I. Guyon et al~\cite{transformer}, design a model that apply multi self-attention layers and residual connection(transformer)
-which greatly improved feature extraction abilities for time-series data. It became the new benchmark for natural language processing
-and other deep learning application. 
-s
+of wide bird detection and recognization. 
