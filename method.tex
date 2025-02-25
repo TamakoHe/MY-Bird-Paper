@@ -152,6 +152,18 @@ code are displayed in~\ref{png:random-branch}
     \label{png:random-branch}
 \end{figure}
 \subsection{Model architecture}
-Our model is based on DETRs Beat YOLOs on Real-time Object Detection or RT-DETR~\cite{RTDETR}.
+RT-DETR (Real-Time Detection Transformer) is an advanced object detection model that enhances the DETR architecture to achieve real-time performance without compromising accuracy. Unlike traditional CNN-based models like YOLO, RT-DETR leverages a Transformer-based architecture to effectively integrate multi-scale feature maps, capturing both global context and fine-grained details.
 
- 
+Key innovations of RT-DETR include:
+\begin{enumerate}
+    \item  By employing a Transformer encoder, RT-DETR processes features from different scales, enabling the model to understand complex relationships within the image. This design is particularly beneficial for detecting small or overlapping objects.
+    \item  Traditional object detectors often rely on thresholding and Non-Maximum Suppression (NMS) to filter and refine detection results, which can be computationally intensive and sensitive to parameter tuning. RT-DETR streamlines this process by adopting a top-k selection mechanism, directly choosing the top $k$ predictions based on confidence scores. This approach reduces computational overhead and enhances detection speed.
+    \item  RT-DETR eliminates the need for preset anchor boxes, which are commonly used in models like YOLO to predict bounding boxes. This anchor-free approach simplifies the model architecture, reduces the number of hyperparameters, and enhances flexibility across different datasets and object scales. 
+\end{enumerate}
+
+Thanks to the light-weighted and accurate characteristics of RT-DETR, 
+real-time detection of birds with low power mobile devices is possible. 
+To enhance the model's robustness in different optical environment, 
+RT-DETR's feature pyramid networks(FPN), its matching algorithm alone with its loss function
+are modified. The original RT-DETR model's FPN 
+
