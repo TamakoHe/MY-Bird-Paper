@@ -165,5 +165,10 @@ Thanks to the light-weighted and accurate characteristics of RT-DETR,
 real-time detection of birds with low power mobile devices is possible. 
 To enhance the model's robustness in different optical environment, 
 RT-DETR's feature pyramid networks(FPN), its matching algorithm alone with its loss function
-are modified. The original RT-DETR model's FPN 
-
+are modified. The FPN takes the extracted features from the backbone network then processes them 
+as the input of further detection networks.
+Original RT-DETR model's FPN only encodes the $S_5$ output layer
+with self-attention network and fuses it with $S_3$ and $S_4$ output layers.
+For common objects detection tasks, $S_5$ 
+feature possesses deeper, more advanced, and richer semantic features, while the self-attention mechanism may focus more on the semantic nature of features rather than spatial local details\cite{RTDETR}.
+However, for the detection of birds in the wild, the shallower and more detailed $S_3$ feature might better exclude interference, such as obstruction by branches, in complex environmental conditions.
