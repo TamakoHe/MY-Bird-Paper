@@ -7,7 +7,7 @@ can not only locate birds in images but also avoid false detections that recogni
 non-bird objects as birds. All 80 types of training subset is used. However, as 
 the MS-COCO dataset is lack of instances of birds that is difficult to be detected.
 We collected 708 birds image in field environment and manually labeled all these birds 
-instances with their bounding boxes and segments. Many of these instances is hard to be 
+instances with their bounding boxes and segments. Many of these instances is hard to be
 detected because of factors such as occlusion. Besides, we also noted birds with the 
 following criterias.
 \begin{enumerate}
@@ -170,5 +170,5 @@ as the input of further detection networks.
 Original RT-DETR model's FPN only encodes the $S_5$ output layer
 with self-attention network and fuses it with $S_3$ and $S_4$ output layers.
 For common objects detection tasks, $S_5$ 
-feature possesses deeper, more advanced, and richer semantic features, while the self-attention mechanism may focus more on the semantic nature of features rather than spatial local details\cite{RTDETR}.
+feature possesses deeper, more advanced, and richer semantic features, while the self-attention mechanism may focus more on the semantic nature of features rather than spatial local details~\cite{RTDETR}.
 However, for the detection of birds in the wild, the shallower and more detailed $S_3$ feature might better exclude interference, such as obstruction by branches, in complex environmental conditions.
