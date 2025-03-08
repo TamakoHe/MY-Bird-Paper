@@ -304,3 +304,8 @@ TSWLatexianTemp*
 # option is specified. Footnotes are the stored in a file with suffix Notes.bib.
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
+<<<<<<< HEAD
+=======
+launch.json
+temp.txt
+>>>>>>> d18378c (2024-11-19  数据增强一大半 差最后流程图还有伪代码)
