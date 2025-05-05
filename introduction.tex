@@ -18,14 +18,15 @@ of space weather on bird migration~\cite{bc4}.
 Manual monitoring is time-intensive and requires professional knowledge.
 Deep learning, however, can utilize computers' computing capability to learn the characteristics of birds, 
 reaching a high accuracy.
-In recent years, methods of birds monitoring and identification based on deep learning are 
-thriving. For example, Stefan Kahl and Stefan Kahl  
+In recent years, avian monitoring methods and identification based on deep learning are 
+thriving. For example, Stefan Kahl et al.  
 proposed a deep neural network BirdNET which can 
 identify bird species by sound in an average precision of 
 0.791 for single-species recordings~\cite{sa1}.
 Within the domain of sound identification, methods
 such as Gaussian mixture model (GMM),  support vector machine (SVM)
-were adopted~\cite{sa2,sa3}. For birds images identification, many state-of-art deep learning designs
+were adopted~\cite{sa2,sa3}. While audio-based methods have shown promise, visual detection approaches offer complementary advantages.
+For birds images identification, many state-of-art deep learning designs
 were proposed. Potluri, H et al. applied ResNet (He et al., 2016)~\cite{resnet} on 
 CUB-200-2011 dataset~\cite{dataset1} and reached an accuracy of 96.5\%~\cite{sa4}.
 Liu et al. presented a novel feature concentration Transformer 
@@ -46,7 +47,7 @@ combined with Swin Transformer and CenterNet~;
 Hao-Yu Hou et al. introduced ensemble fusion techniques to reach 
 an average precision of 77.6\% at an IoU threshold of 0.5~\cite{Swint,centernet,mva1,mva2}.
 Although ~\cite{datasetmva} provides an alternative of MS COCO~\cite{datasetcoco} and Pascal VOC~\cite{datasetvoc},
-this dataset does not contain many occluded, crowded and backlighting 
+this dataset does not contain many occluded, crowded and low-contrast 
 samples and its backgrounds are restricted to a few certain scenes.
 
 In most industrial cases, the object detection models are based on Convolution neural network or CNN which extracts 
@@ -70,29 +71,21 @@ optimizing the CNN-based objects detection architecture and achieve a better per
 these designs improved the detection and segement of general categories objects, the accuracy of birds detection 
 is very concerning. By training the RE-DETR on MS-COCO dataset with 70 epoches, we found that the mAP of bird is only (TODO:filled the number)
 but the mAP of all categories is (TODO:filled the number). 
-% Intro的初稿总算完成了，好开心，method也快了
-% TODO:一些具体数字还要继续填入
-% 记得PULL!
 
-
-
-
-
-
-
-
-
-
-
-
-In light of these issues, we proposed a dataset 
-containing birds images in field environment TH-Birds. 
-The dataset is publicly available at \href{https://github.com/TamakoHe/TH-Birds}{https://github.com/TamakoHe/TH-Birds}. 
+In light of these issues, we proposed a dataset containing birds images in field environment TH-Birds. 
+The dataset is publicly available at \href{https://github.com/TamakoHe/TH-Birds}{TH-Birds}. 
 Sample images in the proposed dataset were all collected from various field environment including river, lake and mountainous region. Every bird in these images is annotated with its bounding box, instance segment along with notes
 regarding the characteristics of every instances.  In addition, we proposed 
 a new method of data augmentation simulating the trees' braches' occlusion 
-and other complex scenarios. The FPN layer and the loss function of the 
-RT-DETR~\cite{RTDETR} model were also redesigned for better performance in bird detection. 
+and other complex scenarios. The loss function is also optimized for better sensitivity
+for birds but reduce the false detections. 
+
+However, three critical gaps remain:
+\begin{enumerate}
+    \item Current models underperform in complex circumstances 
+    \item Lake of dataset that designed for bird detection
+    \item Current models are hard to be deployed on edge devices for real-time detection
+\end{enumerate}
 
 Experimental results demonstrated that this model increased the mAP by 
 1.3\% on the TH-bird and MS-COCO dataset. Performance on the occluded 
